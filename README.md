@@ -1,5 +1,6 @@
 # Zepto-SQL-Data-Analysis-Project
 ============================================================
+
 This is a complete, real-world data analyst portfolio project based on an e-commerce inventory dataset scraped from Zepto — one of India’s fastest-growing quick-commerce startups. This project simulates real analyst workflows, from raw data exploration to business-focused data analysis.
 
 Project Overview
@@ -12,6 +13,7 @@ The goal is to simulate how actual data analysts in the e-commerce or retail ind
 
 ✅ ImplementProject Overview
 ==================================================
+
 The goal is to simulate how actual data analysts in the e-commerce or retail industries work behind the scenes to use SQL to:
 
 ✅ Set up a messy, real-world e-commerce inventory database
@@ -77,12 +79,14 @@ CREATE TABLE zepto (
 2. Data Import
    
  ====================================  
+ 
 Loaded CSV using MySQL import feature.
 
 
 3. Data Exploration
    
   ===================================== 
+  
 Counted the total number of records in the dataset
 
 Viewed a sample of the dataset to understand structure and content
@@ -98,6 +102,7 @@ Detected products present multiple times, representing different SKUs
 4.  Data Cleaning
    
   ================================= 
+  
 Identified and removed rows where MRP or discounted selling price was zero
 
 Converted mrp and discountedSellingPrice from paise to rupees for consistency and readability
@@ -105,6 +110,7 @@ Converted mrp and discountedSellingPrice from paise to rupees for consistency an
 5. Business Insights
    
   =================================== 
+  
 Found top 10 best-value products based on discount percentage
 
 Identified high-MRP products that are currently out of stock
